@@ -67,8 +67,9 @@ img{
     --primary-text-color: #2E2F42;
     --title-text-color: #434455;
     --background-color: #404BBF;
-    --white-color: #FFFFFF;
     --background-color-button: #4d5ae5;
+    --white-color: #FFFFFF;
+    --gray-color: #F4F4FD;
 }
 
  /* logo */
@@ -150,12 +151,12 @@ img{
 }
 
 .logo-footer-studio {
-    color: #F4F4FD;
+    color: var(--gray-color);
     display: inline-block;
 }
 
 .title-footer {
-    color: #F4F4FD;
+    color: var(--gray-color);
     
     font-size: 16px;
     
@@ -163,6 +164,14 @@ img{
     line-height: 1.5;
 }
 
+/* .social-media {
+    color: var(--white-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 120px;
+} */
 
 
 
@@ -177,11 +186,23 @@ img{
 
 /* hero */
 .hero {
-    background-color: #2e2f42;
     text-align: center; 
     padding-top: 188px;
     padding-bottom: 188px;
-    
+
+    background-color: #2E2F42;
+    ;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), url(../images/people-office\ 1.jpg);
+    max-width: 1440px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title { 
@@ -233,6 +254,15 @@ img{
     padding-bottom: 120px;
 }
 
+.tactics-content {
+    display: flex;
+    gap: 24px;
+}
+
+.tactics-content .item {
+    width: calc((100% - 72px) / 4);
+}
+
 .tactics-title {
     color: var(--primary-text-color);
     
@@ -249,15 +279,33 @@ img{
     width: 264px;
 } 
 
-.tactics-content {
-    display: flex;
-    gap: 24px;
+.tactics-content .item::before {
+    content: "";
+    display: block;
+    
+    height: 112px;
+    background-color: var(--gray-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 64px;
+
 }
 
-.tactics-content .item {
-    width: calc((100% - 72px) / 4);
+.icon-antenna::before {
+    background-image: url(../images/antenna\ 1.png);
 }
 
+.icon-clock::before {
+    background-image: url(../images/clock\ 1.png);
+}
+
+.icon-diagram::before {
+    background-image: url(../images/diagram\ 1.png);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/astronaut\ 1.png);
+}
 
 
 /* What are we doing */
@@ -290,7 +338,7 @@ img{
 
 /* Our Team */
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--gray-color);
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -380,7 +428,7 @@ img{
 
 .portfolio-button {
     color: #4D5AE5;
-    background: #F4F4FD;
+    background: var(--gray-color);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     
