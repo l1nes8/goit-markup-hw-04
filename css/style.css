@@ -385,13 +385,18 @@ img{
 }
 
 .min-resume {
-    padding: 32px 16px;
+    padding: 32px 0px;
 }
 
 .img-employees {
     display: flex;
-    justify-content: center;
     gap: 24px;
+}
+
+.list-social-media{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
 .img-employees .item {
@@ -435,12 +440,6 @@ img{
 .team-profession {
     text-align: center;
     margin-bottom: 8px;
-}
-
-.list-social-media{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
 }
 
 .icons-sm-team {
