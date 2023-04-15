@@ -437,10 +437,13 @@ img{
     margin-bottom: 8px;
 }
 
-
 .list-social-media{
     display: flex;
     gap: 24px;
+}
+
+.icons-sm-team {
+    fill: var(--gray-color);
 }
 
  /* Section 4. Clients  */
