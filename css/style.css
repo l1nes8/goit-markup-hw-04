@@ -324,7 +324,6 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     
-    margin-top: 8px;
     margin-bottom: 8px;
 }
 
@@ -332,7 +331,7 @@ img{
     width: 264px;
 } 
 
-.icon-antenna {
+.icon-tactics {
     background-color: var(--gray-color);
 
     display: flex;
@@ -340,6 +339,7 @@ img{
     justify-content: center;
     
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .antenna {
