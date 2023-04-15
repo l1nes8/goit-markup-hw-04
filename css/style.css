@@ -183,11 +183,16 @@ img{
     
 }
 
+.icons-sm-footer {
+    fill: var(--gray-color);
+}
+
 .link-sm-footer {
+    background-color: #4D5AE5;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4D5AE5;
     
     width: 40px;
     height: 40px;
@@ -222,6 +227,7 @@ img{
     font-size: 16px;
     line-height: 24px;
 } 
+
 
 
 
