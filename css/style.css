@@ -487,6 +487,7 @@ img{
 
     border: 1px solid var(--clients-color);
     border-radius: 4px;
+    color: var(--clients-color);
 
 }
 
