@@ -460,18 +460,6 @@ img{
     padding-bottom: 120px;
 }
 
- .customers {
-    color: var(--primary-text-color);
-    
-    font-weight: 700px;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    
-    margin-bottom: 72px;
-    
-}
-
 .list-clients {
     display: flex;
     gap: 24px;
@@ -487,10 +475,8 @@ img{
 
     border: 1px solid var(--clients-color);
     border-radius: 4px;
-    color: var(--clients-color);
-
+    color: var(--clients-color) !important; 
 }
-
 
 .link-clients:hover, 
 .link-clients:focus{
@@ -502,6 +488,18 @@ img{
     fill: currentColor;
 }
 
+
+.customers {
+    color: var(--primary-text-color);
+    
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    
+    margin-bottom: 72px;
+    
+}
 
 
 
