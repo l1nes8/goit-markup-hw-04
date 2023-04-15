@@ -463,19 +463,23 @@ img{
 .list-clients {
     display: flex;
     gap: 24px;
+    list-style: none;
+   
 }
 
 .link-clients {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    
    
     width: 168px;
     height: 88px;
 
     border: 1px solid var(--clients-color);
     border-radius: 4px;
-    color: var(--clients-color) !important; 
+    color: var(--clients-color); 
 }
 
 .link-clients:hover, 
