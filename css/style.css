@@ -453,6 +453,36 @@ img{
     
 }
 
+.list-clients {
+    display: flex;
+    gap: 24px;
+}
+
+.link-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    width: 168px;
+    height: 88px;
+
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    color: #404BBF;
+}
+
+.link-clients:hover, 
+.link-clients:focus{
+    border-color: #404BBF;
+    color: #404BBF;
+}
+
+
+.icons-clients:hover,
+.icons-clients:focus  {
+    fill: currentColor;
+}
+
 
 
 
