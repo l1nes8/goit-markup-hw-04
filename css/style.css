@@ -468,7 +468,8 @@ img{
 
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    color: #404BBF;
+    color: #8E8F99;
+
 }
 
 .link-clients:hover, 
@@ -476,13 +477,6 @@ img{
     border-color: #404BBF;
     color: #404BBF;
 }
-
-
-.icons-clients:hover,
-.icons-clients:focus  {
-    fill: currentColor;
-}
-
 
 
 
