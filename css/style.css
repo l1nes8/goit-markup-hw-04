@@ -440,6 +440,7 @@ img{
 .list-social-media{
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .icons-sm-team {
