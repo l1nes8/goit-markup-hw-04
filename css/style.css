@@ -88,6 +88,7 @@ img{
     --background-color-button: #4d5ae5;
     --white-color: #FFFFFF;
     --gray-color: #F4F4FD;
+    --clients-color: #8e8f99;
 }
 
  /* logo */
@@ -484,16 +485,20 @@ img{
     width: 168px;
     height: 88px;
 
-    border: 1px solid #8E8F99;
+    border: 1px solid var(--clients-color);
     border-radius: 4px;
-    color: #8E8F99;
 
 }
+
 
 .link-clients:hover, 
 .link-clients:focus{
     border-color: #404BBF;
     color: #404BBF;
+}
+
+.icons-clients {
+    fill: currentColor;
 }
 
 
